@@ -27,3 +27,61 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Exercises Part */
+
+/* Bodykit */
+
+.header {
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  padding-left: 0px;
+  padding-bottom: 10px
+}
+
+.card {
+  border: 2px solid #eee;
+  width: 320px;
+  padding: 10px;
+}
+
+/* Flex */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex: auto
+}
+
+.sidebar {
+  width: 300px;
+
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 48px;
+  gap: 16px;
+}
